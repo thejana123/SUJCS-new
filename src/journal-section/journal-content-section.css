@@ -1,0 +1,102 @@
+body{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+    text-align: justify;
+    font-size: 15px;
+    color: #151515;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+
+@media (min-width: 768px) {
+    body{
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+}
+
+/*
+    #################################
+        JOURNAL CONTENT SECTION
+    #################################  
+*/
+
+.list-group {
+    border-radius: 0px !important;
+}
+
+.list-group-item.active {
+    margin-top: 10px !important;
+    z-index: 2;
+    color: #fff;
+    background-color: #142144;
+}
+
+.alignment {
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+
+.table {
+    font-size: 15px;
+}
+
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #225791;
+    border: 1px solid rgba(0, 0, 0, .125);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .table {
+        font-size: 15px;
+    }
+   
+    
+}
+
+@media (max-width: 640px) {
+    .list-group-item {
+    
+    text-align: center;
+   
+    margin-left: 25%;
+    font-size: 14px;
+    }
+}
+
+.list-group-item-action:hover {
+    background-color: #142144;
+    color: #ffffff
+}
+
+/*
+    ###########################################
+        JOURNAL CONTENT SECTION ENDS FROM HERE
+    ###########################################  
+*/
